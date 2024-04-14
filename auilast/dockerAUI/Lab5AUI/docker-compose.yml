@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  lab1aui-gun:
+    image: lab1aui-gun
+    restart: always
+    environment:
+      GUNS_URL: "http://lab1aui-gun:8080"
+
+  lab1aui-gunClass:
+    image: lab1aui-gunclass
+    restart: always
+    environment:
+      GUNS_URL: "http://lab1aui-gunClass
+      :8080"
+
+  lab4-gateway:
+    image: lab4-gateway
+    restart: always
+    environment:
+      LAB4_GUN_URL: "http://lab1aui-gun:8080"
+      LAB4_GUNCLASS_URL: "http://lab1aui-gunClass:8080"
+      LAB4_GATEWAY_HOST: "lab4-gateway:8080"
+
+  lab5-aui:
+    image: lab5-aui
+    restart: always
+    environment:
+      API_URL: http://lab4-gateway:8080/api
+    ports:
+      - "8090:80"

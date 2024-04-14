@@ -1,0 +1,24 @@
+{
+  "men": [
+    {
+      "id": "754b0e35-4dde-4d6b-96fa-cf6dc45e15c1",
+      "name": "Drake"
+    },
+    {
+      "id": "8c349942-03f5-403d-9f0e-53a31ade8827",
+      "name": "Eric"
+    },
+    {
+      "id": "4df8eb79-70ab-4827-a901-146ab1aef450",
+      "name": "Felix"
+    },
+    {
+      "id": "f5917951-3591-4d59-83e4-910dc76ad953",
+      "name": "Gary"
+    },
+    {
+      "id": "2299e608-da90-4c8e-8ebc-1caae429afb6",
+      "name": "Hugo"
+    }
+  ]
+}

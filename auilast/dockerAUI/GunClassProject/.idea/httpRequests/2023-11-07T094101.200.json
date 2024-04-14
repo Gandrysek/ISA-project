@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": "3af263ed-293e-4d47-8536-ef4c7372b2ac",
+      "name": "Bricklayer"
+    },
+    {
+      "id": "7bc1bb2c-dc63-4a49-b2bb-a3208ee1bdca",
+      "name": "Chef"
+    },
+    {
+      "id": "5e2ab0b1-6398-4f54-a515-44cbe8ea4819",
+      "name": "Doctor"
+    },
+    {
+      "id": "b9b2cd55-d2a2-48a8-8ebb-2a3e391c16ee",
+      "name": "Electrician"
+    },
+    {
+      "id": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e75",
+      "name": "Firefighter"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+## Build dockera na LAB5AUI
+docker build -t lab5-aui .
+
+## Build dockera na lab4.gateway
+docker build -t lab4-gateway .
+
+## Build dockera na LAB1AUI Job
+docker build -t lab1aui-job .
+
+# Build dockera na LAB1AUI Man
+docker build -t lab1aui-man .
+
+#Uruchamia kontener
+docker compose up

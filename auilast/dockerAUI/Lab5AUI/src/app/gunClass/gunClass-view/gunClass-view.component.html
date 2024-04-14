@@ -1,0 +1,28 @@
+<article *ngIf="gunClass">
+  <header><h2>{{gunClass.name}}</h2></header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="row mb-2">
+          <div class="col-6">
+            Level:
+          </div>
+          <div class="col-6">
+            <span>{{gunClass.caliber}}</span>
+          </div>
+        </div>
+
+        <div class="row mb-2">
+          <div class="col-6">
+            Health:
+          </div>
+          <div class="col-6">
+            <span>{{gunClass.ammo}}</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</article>

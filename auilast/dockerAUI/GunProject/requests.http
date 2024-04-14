@@ -1,0 +1,117 @@
+### Get all men
+### Po usunieciu pracy usuwa wszystkich ludzi z ta praca
+GET http://localhost:8081/api/men
+
+### Get single man
+
+GET http://localhost:8080/api/men/525d3e7b-bb1f-4c13-bf17-926d1a12e4c0
+
+### Get single man, not existing
+
+GET http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
+
+### Get job men
+
+GET http://localhost:8080/api/jobs/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76/men
+
+### Get job men, empty
+
+GET http://localhost:8080/api/jobs/f5875513-bf7b-4ae1-b8a5-5b70a1b90e75/men
+
+### Get job men, not existing
+
+GET http://localhost:8080/api/jobs/ac4e2683-b2ba-4695-94d9-806a97fce71e/men
+
+### Create new man
+### zmiana 7 -> 6
+
+PUT http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d86
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+
+{
+  "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d86",
+  "name": "Isaac",
+  "level": 4,
+  "health": 50,
+  "job": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
+}
+
+### Create new man with non existing job
+### zmiana 6 -> 0
+
+PUT http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d86
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+
+{
+  "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d86",
+  "name": "Isaac",
+  "level": 4,
+  "health": 50,
+  "job": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e70"
+}
+
+### update man
+
+PUT http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d86
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+
+{
+  "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d86",
+  "name": "Ibrahim",
+  "level": 6,
+  "health": 70,
+  "job": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
+}
+
+### Delete man (jest to Bill)
+### zmiana 7 -> 8
+
+DELETE http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d88
+
+### Delete new created job (Hillary lub Henry)
+
+DELETE http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d86
+
+### Get all jobs
+
+GET http://localhost:8080/api/jobs
+
+### Get single job
+
+GET http://localhost:8080/api/jobs/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76
+
+### Get single job, not existing
+
+GET http://localhost:8080/api/jobs/ac4e2683-b2ba-4695-94d9-806a97fce71e
+
+### Delete job
+
+DELETE http://localhost:8080/api/jobs/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76
+
+### Create new job
+### zmiana 6 -> 7
+
+PUT http://localhost:8080/api/jobs/f5875513-bf7b-4ae1-b8a5-5b70a1b90e77
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+
+{
+  "id": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e77",
+  "name": "Gardener",
+  "difficulty": 5
+}
+
+### update man
+
+PUT http://localhost:8080/api/jobs/f5875513-bf7b-4ae1-b8a5-5b70a1b90e77
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+
+{
+  "id": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e77",
+  "name": "Greenkeeper",
+  "difficulty": 7
+}

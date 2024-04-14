@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76",
+      "name": "Actor"
+    },
+    {
+      "id": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e66",
+      "name": "Bricklayer"
+    },
+    {
+      "id": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e56",
+      "name": "Chef"
+    },
+    {
+      "id": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e46",
+      "name": "Doctor"
+    },
+    {
+      "id": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e36",
+      "name": "Electrician"
+    },
+    {
+      "id": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e75",
+      "name": "Firefighter"
+    }
+  ]
+}

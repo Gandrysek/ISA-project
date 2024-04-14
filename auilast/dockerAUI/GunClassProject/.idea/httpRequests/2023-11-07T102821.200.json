@@ -1,0 +1,40 @@
+{
+  "men": [
+    {
+      "id": "525d3e7b-bb1f-4c13-bf17-926d1a12e4c0",
+      "name": "Andy"
+    },
+    {
+      "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d88",
+      "name": "Bill"
+    },
+    {
+      "id": "2f2903af-bdd1-4a12-80ae-3ebfd3f2ced9",
+      "name": "Carl"
+    },
+    {
+      "id": "e0c0392c-6caf-42b2-9451-564d0ae6b2e2",
+      "name": "Drake"
+    },
+    {
+      "id": "80a63067-390a-4437-b23f-400dde6becd8",
+      "name": "Eric"
+    },
+    {
+      "id": "d28b3914-d2fa-4ab4-8207-d8da13a427ed",
+      "name": "Felix"
+    },
+    {
+      "id": "bbfd81a5-fba0-47b8-8409-73396b5a30f2",
+      "name": "Gary"
+    },
+    {
+      "id": "3c35ae6b-16a8-4ae4-a12c-b6242fcbce7c",
+      "name": "Hugo"
+    },
+    {
+      "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d86",
+      "name": "Hillary"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "men": [
+    {
+      "id": "525d3e7b-bb1f-4c13-bf17-926d1a12e4c0",
+      "name": "Andy"
+    },
+    {
+      "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d88",
+      "name": "Bill"
+    },
+    {
+      "id": "cc5594b7-f5c5-46c5-b38c-f682eb898600",
+      "name": "Carl"
+    },
+    {
+      "id": "c5273e88-3f97-42ab-a916-c50bd30a08d8",
+      "name": "Drake"
+    },
+    {
+      "id": "a8c178df-b4e1-4819-a2d7-fc26e4a52a53",
+      "name": "Eric"
+    },
+    {
+      "id": "981a944b-aaa1-457b-a05d-c4b0062c2691",
+      "name": "Felix"
+    },
+    {
+      "id": "2e936b8f-5d9d-41ad-bf5e-1b6ef5ff247d",
+      "name": "Gary"
+    },
+    {
+      "id": "6278bcca-d289-4ec6-8286-d5acc7e6e8d1",
+      "name": "Hugo"
+    }
+  ]
+}

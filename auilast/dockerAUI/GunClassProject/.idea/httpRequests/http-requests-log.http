@@ -1,0 +1,561 @@
+DELETE http://localhost:8082/api/jobs/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8082/api/jobs
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-09T104437.200.json
+
+###
+
+GET http://localhost:8080/api/men
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T105516.200.json
+
+###
+
+DELETE http://localhost:8080/api/jobs/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/men
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T105456.200.json
+
+###
+
+PUT http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d86
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+Content-Length: 148
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d86",
+  "name": "Henry",
+  "level": 6,
+  "health": 70,
+  "job": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
+}
+
+###
+
+PUT http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d86
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+Content-Length: 150
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d86",
+  "name": "Hillary",
+  "level": 4,
+  "health": 50,
+  "job": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e70"
+}
+
+<> 2023-11-07T105417.404.json
+
+###
+
+GET http://localhost:8080/api/men
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T105400.200.json
+
+###
+
+PUT http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d86
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+Content-Length: 150
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d86",
+  "name": "Hillary",
+  "level": 4,
+  "health": 50,
+  "job": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
+}
+
+###
+
+GET http://localhost:8080/api/jobs/ac4e2683-b2ba-4695-94d9-806a97fce71e/men
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T105343.404.json
+
+###
+
+GET http://localhost:8080/api/jobs/f5875513-bf7b-4ae1-b8a5-5b70a1b90e75/men
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T105331.200.json
+
+###
+
+GET http://localhost:8080/api/jobs/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76/men
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T105324.200.json
+
+###
+
+GET http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T105319.404.json
+
+###
+
+GET http://localhost:8080/api/men/525d3e7b-bb1f-4c13-bf17-926d1a12e4c0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T105313.200.json
+
+###
+
+GET http://localhost:8080/api/men
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T105309.200.json
+
+###
+
+GET http://localhost:8080/api/men/525d3e7b-bb1f-4c13-bf17-926d1a12e4c0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T104057.200.json
+
+###
+
+GET http://localhost:8080/api/men
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T104040.200.json
+
+###
+
+PUT http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d86
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+Content-Length: 150
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d86",
+  "name": "Hillary",
+  "level": 4,
+  "health": 50,
+  "job": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e70"
+}
+
+<> 2023-11-07T104034.404.json
+
+###
+
+PUT http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d86
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+Content-Length: 148
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d86",
+  "name": "Henry",
+  "level": 6,
+  "health": 70,
+  "job": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
+}
+
+###
+
+GET http://localhost:8080/api/men
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T103939.200.json
+
+###
+
+PUT http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d86
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+Content-Length: 150
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d86",
+  "name": "Hillary",
+  "level": 4,
+  "health": 50,
+  "job": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
+}
+
+###
+
+GET http://localhost:8080/api/men
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T103926.200.json
+
+###
+
+PUT http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d86
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+Content-Length: 150
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d86",
+  "name": "Hillary",
+  "level": 4,
+  "health": 50,
+  "job": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
+}
+
+###
+
+PUT http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d86
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+Content-Length: 150
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d86",
+  "name": "Hillary",
+  "level": 4,
+  "health": 50,
+  "job": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e70"
+}
+
+<> 2023-11-07T102955.500.json
+
+###
+
+PUT http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d86
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+Content-Length: 150
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d86",
+  "name": "Hillary",
+  "level": 4,
+  "health": 50,
+  "job": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e75"
+}
+
+###
+
+PUT http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d86
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+Content-Length: 150
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d86",
+  "name": "Hillary",
+  "level": 4,
+  "health": 50,
+  "job": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
+}
+
+###
+
+DELETE http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d86
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/men
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T102821.200.json
+
+###
+
+PUT http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d86
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+Content-Length: 150
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d86",
+  "name": "Hillary",
+  "level": 4,
+  "health": 50,
+  "job": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
+}
+
+###
+
+GET http://localhost:8080/api/men/525d3e7b-bb1f-4c13-bf17-926d1a12e4c0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T102312.200.json
+
+###
+
+GET http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T102310.404.json
+
+###
+
+GET http://localhost:8080/api/men/525d3e7b-bb1f-4c13-bf17-926d1a12e4c0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T102258.200.json
+
+###
+
+GET http://localhost:8080/api/men
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T102254.200.json
+
+###
+
+GET http://localhost:8080/api/men/525d3e7b-bb1f-4c13-bf17-926d1a12e4c0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T102232.404.json
+
+###
+
+GET http://localhost:8080/api/men
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T095827.200.json
+
+###
+
+GET http://localhost:8080/api/jobs
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T095655.200.json
+
+###
+
+PUT http://localhost:8080/api/jobs/f5875513-bf7b-4ae1-b8a5-5b70a1b90e77
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+Content-Length: 94
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e77",
+  "name": "Greenkeeper",
+  "difficulty": 7
+}
+
+###
+
+GET http://localhost:8080/api/jobs
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T095632.200.json
+
+###
+
+DELETE http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d88
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T095626.404.json
+
+###
+
+GET http://localhost:8080/api/jobs
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T095615.200.json
+
+###
+
+DELETE http://localhost:8080/api/men/3c6f1eb1-8069-44ab-988f-d7fed2b65d88
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T095607.404.json
+
+###
+
+PUT http://localhost:8080/api/jobs/f5875513-bf7b-4ae1-b8a5-5b70a1b90e77
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+Content-Length: 91
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e77",
+  "name": "Gardener",
+  "difficulty": 5
+}
+
+###
+
+GET http://localhost:8080/api/jobs
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T095547.200.json
+
+###
+
+DELETE http://localhost:8080/api/jobs/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/jobs/ac4e2683-b2ba-4695-94d9-806a97fce71e
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T095538.404.json
+
+###
+
+GET http://localhost:8080/api/jobs/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T095536.200.json
+
+###
+
+GET http://localhost:8080/api/jobs/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T095532.200.json
+
+###
+
+GET http://localhost:8080/api/jobs
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T095529.200.json
+
+###
+
+GET http://localhost:8080/api/men
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T094114.200.json
+
+###
+
+GET http://localhost:8080/api/jobs
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-07T094101.200.json
+
+###
+
